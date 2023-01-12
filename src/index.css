@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+/* https://google-webfonts-helper.herokuapp.com/fonts */
+
+/* nunito-sans-300 - latin */
+@font-face {
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 300;
+     src: local(''),
+          url('../fonts/nunito-sans-v12-latin-300.woff2') format('woff2');
+   }
+   
+   /* nunito-sans-600 - latin */
+   @font-face {
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 600;
+     src: local(''),
+          url('../fonts/nunito-sans-v12-latin-600.woff2') format('woff2');
+   }
+   
+   /* nunito-sans-800 - latin */
+   @font-face {
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 800;
+     src: local(''),
+          url('../fonts/nunito-sans-v12-latin-800.woff2') format('woff2');
+   }
+   
+   
+   
+  
+ 
+}
